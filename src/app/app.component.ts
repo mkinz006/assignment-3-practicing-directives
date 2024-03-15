@@ -11,7 +11,7 @@ export class AppComponent {
   displayDetails: boolean = false;
   clicksLog = [];
   clickTotal = 0;
-  toggleDisplay(event: Event) {
+  toggleDisplay() {
     this.clickTotal++;
     this.displayDetails = !this.displayDetails;
     this.clicksLog.push({ 
